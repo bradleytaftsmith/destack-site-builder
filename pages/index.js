@@ -6,7 +6,7 @@ export { getStaticProps } from 'destack/build/server'
 export default function Page(props) { 
     return (
         <div style={{height: '100%'}}>
-            <span>Hello world</span>
+            <span>Site Builder</span>
             <ContentProviderGrapes {...props}/>
         </div>)
 }
